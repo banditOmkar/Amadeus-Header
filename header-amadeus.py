@@ -2,7 +2,7 @@ from burp import IBurpExtender, IHttpListener, IExtensionHelpers
 
 class BurpExtender(IBurpExtender, IHttpListener):
     HEADER_NAME = "PYPentest"
-    HEADER_VALUE = "7038d73f8ae3740af0657ee0844588595223cfd2bdcf4bd4a5f2df639ef50fab87f31e588f1bb3525a7d19e5349cb4fa7610e77fd026c183106e671ebcbebbca"
+    HEADER_VALUE = "" #Replace with value
 
     def registerExtenderCallbacks(self, callbacks):
         # Keep a reference to the callbacks object
